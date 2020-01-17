@@ -8,14 +8,21 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 /* PERSONAL COMPONENTS */
 import { ProfileComponent } from './components/profile/profile.component';
+import { ProjetComponent } from './components/projet/projet.component';
+import { JeuComponent } from './components/jeu/jeu.component';
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    ProjetComponent,
+    JeuComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +30,8 @@ import { ProfileComponent } from './components/profile/profile.component';
     FlexLayoutModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
