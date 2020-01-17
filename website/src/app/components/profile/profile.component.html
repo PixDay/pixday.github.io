@@ -20,8 +20,17 @@
         <div class="toolbar">
             <div class="div-half-height" fxLayout="row" fxLayoutAlign="space-around center">
                 <div class="toolbar-title" fxLayout="row" fxLayoutAlign="center center">PROFILE</div>
-                <div class="div-full">
-                    other
+                <div class="div-full" fxLayout="row" fxLayoutAlign="end center">
+                    <div class="div-small" fxLayout="row" fxLayoutAlign="center center"><mat-icon class="toolbar-icon">search</mat-icon></div>
+                    <form class="toolbar-form">
+                        <mat-form-field class="toolbar-search" color="warn">
+                          <input matInput type="text" placeholder="Search">
+                        </mat-form-field>
+                    </form>
+                    <div class="div-small" fxLayout="row" fxLayoutAlign="center center"><mat-icon class="toolbar-icon">person_outline</mat-icon></div>
+                    <div class="div-small" fxLayout="row" fxLayoutAlign="center center"><mat-icon class="toolbar-icon">work_outline</mat-icon></div>
+                    <div class="div-small" fxLayout="row" fxLayoutAlign="center center"><mat-icon class="toolbar-icon">gamepad</mat-icon></div>
+                    <div class="div-small" fxLayout="row" fxLayoutAlign="center center"><mat-icon class="toolbar-icon">map_outline</mat-icon></div>
                 </div>
             </div>
         </div>
