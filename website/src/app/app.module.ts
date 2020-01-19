@@ -12,12 +12,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
 
 /* PERSONAL COMPONENTS */
 import { ProfileComponent } from './components/profile/profile.component';
 import { ProjetComponent } from './components/projet/projet.component';
 import { JeuComponent } from './components/jeu/jeu.component';
 import { MapComponent } from './components/map/map.component';
+import { ToolComponent } from './components/tool/tool.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { MapComponent } from './components/map/map.component';
     ProfileComponent,
     ProjetComponent,
     JeuComponent,
-    MapComponent
+    MapComponent,
+    ToolComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { MapComponent } from './components/map/map.component';
     MatToolbarModule,
     MatFormFieldModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

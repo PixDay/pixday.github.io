@@ -4,6 +4,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { ProjetComponent } from './components/projet/projet.component';
 import { JeuComponent } from './components/jeu/jeu.component';
 import { MapComponent } from './components/map/map.component';
+import { ToolComponent } from './components/tool/tool.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'profile', component: ProfileComponent},
   {path: 'projets', component: ProjetComponent},
   {path: 'jeux', component: JeuComponent},
-  {path: 'map', component: MapComponent}
+  {path: 'map', component: MapComponent},
+  {path: 'tools', component: ToolComponent}
 ];
 
 @NgModule({
